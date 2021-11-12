@@ -1,0 +1,40 @@
+.logo {
+  width: 130px;
+  height: 100px;
+  margin-top: 10px;
+}
+.position {
+  position: absolute;
+  top: 13%;
+  left: 35%;
+}
+.leading {
+  font-size: 3.3em;
+}
+/* small phone to small tablet */
+@media only screen and (max-width: 767px) {
+  .position {
+    position: absolute;
+    top: 12%;
+    left: 46%;
+  }
+  .leading {
+    font-size: 1.9rem;
+  }
+  /* .motoSm {
+    font-size: 10px;@media only screen and (max-width: 767px) {
+  .position {
+    position: absolute;
+    top: 12%;
+    left: 46%;
+  }
+  .leading {
+    font-size: 1.9rem;
+  }
+  /* .motoSm {
+    font-size: 10px;
+    top: 28%;
+    right: 10%;
+    padding-top: 8px;
+  } */
+}
